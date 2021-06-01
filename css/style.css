@@ -1,0 +1,127 @@
+ 
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ .header {
+     width: 100%;
+     height: 512px;
+     padding: 20px 50px;
+     background: #ffffff;
+     border-bottom: 1px solid grey;
+ }
+ .logo {
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 900;
+     font-size: 18px;
+     margin-top: 20px;
+ }
+ .content {
+     margin-top: 80px;
+     display: grid;
+     grid-template-columns: 50% 50%;
+ }
+ .info-header h6 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin-bottom: 10px;
+ }
+.info-header p {
+    font-size: 18px;
+}
+.info-header button {
+    width: 146px;
+    height: 49px;
+    margin-top: 40px;
+}
+.img-header img {
+    width: 100%;
+    height: 275px;
+}
+.info {
+    margin-top: 130px;
+    width: 100%;
+    padding: 0 70px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0 20px;
+}
+.info-img img {
+    width: 100%;
+    height: 286px;
+}
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.lenguajes {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px 7px;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    background: grey;
+    border-radius: 100%;
+}
+.title-p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #333;
+}
+.line {
+    margin: 10px auto;
+    width: 40%;
+    height: 1px;
+    background: red;
+}
+.block-title {
+    margin: 140px 0 50px 0;
+}
+.proyects {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px 30px;
+}
+.card {
+    box-shadow: 0 0 10px #e7e7e7;
+    padding: 20px;
+}
+.sc {
+    width: 100%;
+    height: 176px;
+    background: #cfcfcf;
+}
+.card button {
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+}
+.card a {
+    text-decoration: none;
+}
+.min-lenguajes {
+    display: flex;
+    margin: 10px 0 20px 0;
+}
+.min-lenguajes img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #000;
+}
